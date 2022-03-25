@@ -24,13 +24,13 @@
   /* 상단 배너 */
   /* 상단 배너 배경 색 */
   /* --top-banner-bg: var(--body-bg); */
-  --top-banner-bg: #000000;
+  --top-banner-bg: #006CEA;
   /* 상단 배너 글자 색 */
   --top-banner-font: #ffffff;
 
   /* 빅 버튼 */
   /* 빅 버튼 배경 색 */
-  --cta-button-bg: #01c0e2;
+  --cta-button-bg: #ff7115;
   /* 빅 버튼 글자 색 */
   --cta-button-font: #ffffff;
 
@@ -191,6 +191,8 @@ nav {
 .top-banner {
   height: 400px;
   background: var(--top-banner-bg);
+  border: 3px solid #000000;
+  border-radius: 10px;
   color: var(--top-banner-font);
   display: flex;
 }
@@ -238,7 +240,8 @@ nav {
 .top-banner__image {
   width: 400px;
   height: 400px;
-  object-fit: cover;
+  object-fit: contain;
+
 }
 
 /* 각 섹션 */
@@ -336,8 +339,7 @@ nav {
 .card__image {
   width: 100%;
   height: 230px;
-  object-fit: cover;
-  border-radius: 4px;
+  object-fit: cover; 
   margin-bottom: 13px;
 }
 
